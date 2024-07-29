@@ -28,7 +28,7 @@ io.on("connection", (socket) => {
     messages.push(data);
     io.emit("chat", data);
     if (messages.length > 100) {
-      messages.pop();
+      messages.shift();
     }
   });
 
