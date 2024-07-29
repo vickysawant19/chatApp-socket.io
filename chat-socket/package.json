@@ -1,14 +1,19 @@
 {
   "name": "chat-socket",
   "version": "1.0.0",
-  "description": "",
+  "description": "A chat application using Socket.io and Express",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express"
+  ],
+  "author": "Vitthal Sawant",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
